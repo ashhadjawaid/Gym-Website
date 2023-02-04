@@ -4,10 +4,14 @@
   box-sizing: border-box;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 .header {
   background-image: url(../Images/fixedbackground1.png);
   height: 1000px;
-  width: 100vw;
+  width: 116vw;
   background-repeat: no-repeat;
 }
 
@@ -18,16 +22,16 @@
 
 .navbar {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
 }
 
 .navbar-heading nav ul {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 100px;
   margin-top: 50px;
-  padding-right: 300px;
+  padding-right: 500px;
 }
 
 .navbar-heading nav ul li {
@@ -129,6 +133,12 @@
 }
 
 /* -----------------------------crousel section ------------------------*/
+
+.crouseldiv{ 
+  width: 600px;
+  height: 600px;
+}
+
 .classes {
   background-color: #30302f;
   display: flex;
@@ -184,7 +194,7 @@
 
 .about-content {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   flex-direction: row-reverse;
   padding-top: 140px;
 }
@@ -451,7 +461,7 @@
 }
 
 .extraweightcontents h1 {
-  font-size: 65px;
+  font-size: 75px;
   font-weight: 700;
   margin-bottom: 30px;
 }
@@ -472,15 +482,15 @@
   height: 760px;
   margin-top: 70px;
   flex-basis: 60%;
-  margin-left: 300px;
+  margin-left: 500px;
 }
 
 .machine img {
   width: 200px;
   height: 150px;
   position: absolute;
-  top: 5900px;
-  left: 600px;
+  top: 6200px;
+  left: 680px;
 }
 
 /*---------------- testemonial section--------------- */
@@ -547,7 +557,7 @@
 
 .blog img{
   position: absolute;
-  left: 1220px;
+  left: 1270px;
   height: 200px;
   top: 7100px;
 }
